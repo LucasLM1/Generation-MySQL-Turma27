@@ -19,6 +19,6 @@ insert into tb_produtos (nome, valor, marca, cor) Values ("Calça Jeans", 450, "
 insert into tb_produtos (nome, valor, marca, cor) Values ("Boné", 150, "Lacoste", "Vermelho");
 
 select * from tb_produtos where valor > 500.00;
-select * from tb_produtos where preco < 500.00;
+select * from tb_produtos where valor < 500.00;
 
-update tb_funcionarios set valor = "325" where id = 2;
+update tb_produtos set valor = "325" where id = 2;
