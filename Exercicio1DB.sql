@@ -19,5 +19,5 @@ insert into tb_funcionarios (nome, salario, cargo, setor) Values ("Rodrigo", 280
 /*select * from tb_funcionarios where salario > 2000;
 select * from tb_funcionarios where salario < 2000;*/
 
-/*update tb_funcionarios set cargo = "Coordenador" where id = 1;
+update tb_funcionarios set cargo = "Coordenador" where id = 1;
 
